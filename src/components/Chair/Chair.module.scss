@@ -1,0 +1,30 @@
+.chairNumber{
+      width: 35px;
+      height: 35px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-left: 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      border: 2px solid orange;
+      background-color: #fff;
+      transition: all .3s linear;
+
+      &:hover{
+            background-color: black;
+            color: #fff;
+            border-color: rgb(64, 255, 47);
+      }
+}
+
+.chairNumber.booked{
+      background-color: orange;
+      border-color: orange;
+      color: #fff;
+}
+
+.chairNumber.booking{
+      background-color: rgb(64, 255, 47);
+      border-color: rgb(64, 255, 47);
+      color: #000;
+}
